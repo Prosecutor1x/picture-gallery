@@ -39,3 +39,10 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #212121;
 }
+/* Add this in your global CSS or Tailwind styles */
+.flipbook-page {
+  background: linear-gradient(to right, #ffffff, #f0f0f0);
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
