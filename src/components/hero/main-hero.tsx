@@ -11,7 +11,7 @@ const MainHero = () => {
 
   return (
     <div className="flex flex-col space-y-4 mt-12 h-full">
-      <h1 className="text-center text-2xl">This is the  Picture Gallery</h1>
+      <h1 className="text-center text-2xl">Picture Gallery</h1>
       <div >
           <CardImage image={allImages}/>
       </div>

@@ -13,19 +13,19 @@ const Header = () => {
           >
             Home
           </Link>
-          <Link
+          {/* <Link
             href="/gallery-main"
             className="hover:text-blue-300 transition-colors duration-200"
           >
             Gallery
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             href="/gallery-main/add-image"
             target="_blank"
             className="hover:text-blue-300 transition-colors duration-200"
           >
             Add Image
-          </Link>
+          </Link> */}
           <Link
             href="/gallery-main/flipbook"
             target="_blank"
