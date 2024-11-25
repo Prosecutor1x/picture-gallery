@@ -7,8 +7,7 @@ export default function Home() {
     <>
     <Header/>
     <div className="flex h-screen justify-center items-center">
-
-      <h1 className="text-2xl font-bold ">Welcome To  Gallery</h1>
+    <h1 className="text-2xl font-bold ">Welcome To  Gallery</h1>
     </div>
     <Footer/>
     </>
