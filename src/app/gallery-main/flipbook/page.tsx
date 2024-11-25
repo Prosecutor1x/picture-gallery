@@ -26,7 +26,7 @@ const Flipbook: React.FC = () => {
       className="page-cover  blank flex justify-center items-center h-full  relative"
     >
       <p className="text-[#c6982c] font-serif italic absolute top-1/2 left-1/3">
-        Elegance in Every Detail
+        Elegance in Every Detail-Drason and RJ
       </p>
     </div>
   );
