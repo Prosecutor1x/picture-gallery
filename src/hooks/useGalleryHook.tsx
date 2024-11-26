@@ -18,6 +18,7 @@ export const useGallery = () => {
           ...(doc.data() as IImageprop),
           id: doc.id,
         }));
+        
         setAllImages(updatedImages);
       },
       (error) => {

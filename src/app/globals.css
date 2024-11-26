@@ -50,7 +50,7 @@ body {
 
 
 .page {
-  background-color: #fbebdac6;
+  background-color: #00000071;
   box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, 0.2);
 }
 
@@ -81,7 +81,10 @@ body {
   transition: transform 0.3s ease;
 }
 
-.page img:hover {
+/* .page img:hover {
   transform: scale(1.01);
-}
+} */
 
+.image-scale{
+  transform: scale(-1,1);
+}
