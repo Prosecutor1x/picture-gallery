@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className=" fixed top-0 w-full bg-gray-900 text-white shadow-lg">
+    <div className=" fixed top-0 w-full bg-gray-900 text-white shadow-lg z-50">
       <div className="container mx-auto flex justify-between items-center py-2 px-4">
         {/* Navbar Links */}
         <nav className="flex gap-4">
@@ -26,13 +26,13 @@ const Header = () => {
           >
             Add Image
           </Link> */}
-          <Link
+          {/* <Link
             href="/gallery-main/flipbook"
             target="_blank"
             className="hover:text-blue-300 transition-colors duration-200"
           >
             Flipbook
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </div>
