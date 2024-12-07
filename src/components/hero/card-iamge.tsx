@@ -22,11 +22,11 @@ const CardImage: React.FC<ImageProps> = ({ image }) => {
           imgObj.src = img.link;
           imgObj.id = img.id as string
           imgObj.onload = () => {
-            resolve({ src: img.link, width: imgObj.width, height: imgObj.height , id:img.id});
+            resolve({ src: img.link, width: imgObj.width, height: imgObj.height , id:img.id as string});
           };
           imgObj.onerror = () => {
             // Fallback dimensions in case of an error
-            resolve({ src: img.link, width: 700, height: 600 , id:img.id});
+            resolve({ src: img.link, width: 700, height: 600 , id:img.id as string});
           };
         });
       });
