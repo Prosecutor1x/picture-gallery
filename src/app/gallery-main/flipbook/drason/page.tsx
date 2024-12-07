@@ -23,7 +23,7 @@ const Flipbook: React.FC = () => {
   pages.push(
     <div
       key="blank-3"
-      className="page flex justify-center items-center h-full  relative bg-pic2"
+      className="page flex justify-center items-center h-full  relative"
     >
       <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">
         Drason Smith
@@ -37,12 +37,12 @@ const Flipbook: React.FC = () => {
 
   pages.push(
     <div
-      key="blank-1"
+      key="blank-4"
       className="page-cover flex justify-center items-center h-full  relative"
     >
-      {/* <p className="text-[#000000] font-serif text-center font-bold text-2xl italic absolute top-1/2 left-1/4">
+      <p className="text-[#000000] font-serif text-center font-bold text-2xl italic absolute top-1/2 left-1/4">
         Elegance in Every Detail-Drason and RJ
-      </p> */}
+      </p>
     </div>
   );
 
@@ -85,7 +85,7 @@ for (let i = 0; i < filteredImages.length; i += 2) {
 
   pages.push(
     <div
-      key="blank-2"
+      key="blank-5"
       className="page-cover flex justify-center items-center h-full  relative"
     >
       <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">

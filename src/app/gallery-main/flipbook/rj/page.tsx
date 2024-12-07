@@ -22,8 +22,8 @@ const Flipbook: React.FC = () => {
   // Cover Page
   pages.push(
     <div
-      key="blank-3"
-      className="page flex justify-center items-center h-full  relative bg-pic1"
+      key="blank-1"
+      className="page flex justify-center items-center h-full  relative "
     >
       <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">
         Rajendra Jagat Sharma
@@ -37,12 +37,12 @@ const Flipbook: React.FC = () => {
 
   pages.push(
     <div
-      key="blank-1"
+      key="key2"
       className="page-cover flex justify-center items-center h-full  relative"
     >
-      {/* <p className="text-[#000000] font-serif text-center font-bold text-2xl italic absolute top-1/2 left-1/4">
+      <p className="text-[#000000] font-serif text-center font-bold text-2xl italic absolute top-1/2 left-1/4">
         Elegance in Every Detail-Drason and RJ
-      </p> */}
+      </p>
     </div>
   );
 
