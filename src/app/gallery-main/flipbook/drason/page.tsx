@@ -28,10 +28,10 @@ const Flipbook: React.FC = () => {
       <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">
         Drason Smith
       </p>
-      {/* <img
-      src="https://cdn.discordapp.com/attachments/843621691350319145/1311098690546569216/FiveM_b2802_GTAProcess_2024-11-27_04-06-44.png?ex=67479f4e&is=67464dce&hm=979f7244f6967c1c7c47c728c5bc15072e22ab2a1127c6ae077f0272d1292338&"
-      className=" object-fill z-20"
-    /> */}
+      <img
+      src="/drason.png"
+      className=" object-cover  h-full"
+    />
     </div>
   );
 
@@ -88,13 +88,13 @@ for (let i = 0; i < filteredImages.length; i += 2) {
       key="blank-2"
       className="page-cover flex justify-center items-center h-full  relative"
     >
-      {/* <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">
-        Rajendra Jagat Sharma
-      </p> */}
-      {/* <img
-        src="https://cdn.discordapp.com/attachments/843621691350319145/1311098690546569216/FiveM_b2802_GTAProcess_2024-11-27_04-06-44.png?ex=67479f4e&is=67464dce&hm=979f7244f6967c1c7c47c728c5bc15072e22ab2a1127c6ae077f0272d1292338&"
-        className=" object-fill z-20"
-      /> */}
+      <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">
+        Drason Smith
+      </p> 
+      <img
+      src="/drason.png"
+      className=" object-cover  h-full"
+    />
     </div>
   );
 
