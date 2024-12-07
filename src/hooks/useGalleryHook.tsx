@@ -84,7 +84,7 @@ export const useGallery = () => {
           message: "Image Deleted Successfully",
           status: "success",
         });
-      } catch (e) {
+      } catch (e :any) {
         console.error("Error deleting image:", e);
         showToast({
           message: "Error deleting image",
