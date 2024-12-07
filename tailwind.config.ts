@@ -14,7 +14,7 @@ export default {
       },
       backgroundImage: {
         'pic1': "/drason.png",
-        'pic2': "/rj.png",
+        'pic2': "/scover.jpg",
       }
     },
   },

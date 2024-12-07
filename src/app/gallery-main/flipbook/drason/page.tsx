@@ -25,12 +25,12 @@ const Flipbook: React.FC = () => {
       key="blank-3"
       className="page flex justify-center items-center h-full  relative"
     >
-      <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">
+      {/* <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">
         Drason Smith
-      </p>
+      </p> */}
       <img
-      src="/drason.png"
-      className=" object-cover  h-full"
+      src="/cover7.jpg"
+      className=" object-cover  h-full w-full"
     />
     </div>
   );
@@ -40,9 +40,10 @@ const Flipbook: React.FC = () => {
       key="blank-4"
       className="page-cover flex justify-center items-center h-full  relative"
     >
-      <p className="text-[#000000] font-serif text-center font-bold text-2xl italic absolute top-1/2 left-1/4">
-        Elegance in Every Detail-Drason and RJ
-      </p>
+     <img
+      src="/sscover.jpg"
+      className=" object-cover  w-full h-full"
+    />
     </div>
   );
 
@@ -85,15 +86,15 @@ for (let i = 0; i < filteredImages.length; i += 2) {
 
   pages.push(
     <div
-      key="blank-5"
+      key="blank-6"
       className="page-cover flex justify-center items-center h-full  relative"
     >
-      <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">
+      {/* <p className=" font-seriffont-bold text-2xl italic absolute left-1/3 top-10 text-center   text-white">
         Drason Smith
-      </p> 
+      </p>  */}
       <img
-      src="/drason.png"
-      className=" object-cover  h-full"
+      src="/cover7.jpg"
+      className=" object-cover w-full h-full"
     />
     </div>
   );
